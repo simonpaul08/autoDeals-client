@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Car Demo #1",
+        "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad qui magni laboriosam perspiciatis maiores velit.",
+        "price": "12000",
+        "profile": "car-demo-1.jpg"
+    },
+    {
+        "title": "Car Demo #2",
+        "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad qui magni laboriosam perspiciatis maiores velit.",
+        "price": "15000",
+        "profile": "car-demo-2.jpg"
+    },
+    {
+        "title": "Car Demo #3",
+        "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad qui magni laboriosam perspiciatis maiores velit.",
+        "price": "20000",
+        "profile": "car-demo-3.jpg"
+    },
+    {
+        "title": "Car Demo #4",
+        "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad qui magni laboriosam perspiciatis maiores velit.",
+        "price": "4000",
+        "profile": "car-demo-4.jpg"
+    }
+]

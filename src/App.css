@@ -1,0 +1,329 @@
+/* utils */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+}
+
+/* Register */
+.register,
+.login {
+    width: 100%;
+    height: 100vh;
+}
+
+.auth-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-wrapper {
+    padding: 2.5rem 1.5rem;
+    background-color: var(--color-white);
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.form-wrapper-text {
+    font-size: 0.85rem;
+}
+
+.form-wrapper-link {
+    text-decoration: none;
+    color: blue;
+}
+
+.form-wrapper-title {
+    font-size: 1.45rem;
+    margin-bottom: 1.5rem;
+}
+
+.auth-form {
+    width: 350px;
+    margin-bottom: 0.5rem;
+}
+
+.form-item {
+    margin-bottom: 1.25rem;
+}
+
+.form-item:last-child {
+    margin-bottom: 1.5rem;
+}
+
+.form-input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--color-gray);
+    outline: none;
+    border-radius: 6px;
+}
+
+.form-btn {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.25rem;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    background-color: var(--color-black);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+}
+
+.header-logo-title {
+    font-size: 1.85rem;
+    cursor: pointer;
+}
+
+.header-nav {
+    flex: 1;
+    padding: 0 2rem;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+
+.nav-item {
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.profile-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.profile-name {
+    margin-right: 1.2rem;
+}
+
+.logout-btn {
+    padding: 0.6rem 1.6rem;
+    font-size: 1.15rem;
+    color: var(--color-black);
+    background-color: var(--color-gray-light);
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+
+.logout-icon {
+    margin-bottom: -0.28rem;
+}
+
+.login-btn {
+    text-decoration: none;
+    padding: 0.4rem 1.6rem;
+    font-size: 1.15rem;
+    color: var(--color-black);
+    background-color: var(--color-gray-light);
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+
+/* Main */
+.main {
+    width: 100%;
+}
+
+.cars-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.card {
+    width: 100%;
+    background-color: var(--color-white);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card-image {
+    width: 100%;
+}
+
+.card-details {
+    width: 100%;
+    padding: 0.4rem 1.25rem 1rem;
+}
+
+.card-title {
+    margin-bottom: 0.8rem;
+}
+
+.card-description {
+    font-size: 0.85rem;
+    margin-bottom: 0.65rem;
+}
+
+.card-price {
+    font-weight: 600;
+    font-size: 1.15rem;
+    margin-bottom: 0.65rem;
+}
+
+.card-button {
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem 0;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* Contact US */
+.contact {
+    width: 100%;
+}
+
+.contact-details {
+    padding: 1.5rem;
+    background-color: var(--color-white);
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 1.8rem;
+}
+
+.contact-details-title {
+    margin-bottom: 0.8rem;
+}
+
+.contact-details-para {
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.learn-more {
+    padding: 0.6rem 2rem;
+    font-size: 1.15rem;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border-radius: 6px;
+}
+
+.contact-form-text h3 {
+    margin-bottom: 1rem;
+}
+
+.contact-form-text p {
+    margin-bottom: 0.8rem;
+}
+
+.contact-btn {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1.15rem;
+    border-radius: 4px;
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
+    cursor: pointer;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.modal-content {
+    width: 25rem;
+    background-color: var(--color-gray-light);
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+    text-align: center;
+    color: var(--color-black);
+}
+.modal-close-wrapper {
+    padding: 0 0.5rem;
+    text-align: right;
+    border-bottom: 1px solid var(--color-light-gray);
+    margin-bottom: 1rem;
+}
+
+.modal-close {
+    cursor: pointer;
+}
+
+.modal-close-button {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    color: var(--color-black);
+    background-color: transparent;
+    border: 0.1rem solid var(--color-black);
+    font-size: 1.25rem;
+    border-radius: 0.6rem;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.modal-close-button:hover {
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+.modal-title {
+    font-size: 16px;
+    margin-bottom: 1.25rem;
+}
+.modal-image {
+    width: 50%;
+    margin-bottom: 0.8rem;
+}
