@@ -7,6 +7,7 @@ const Header = () => {
   const { currentUser, logout } = useAuthContext();
   const navigate = useNavigate();
 
+  
   const onClickTitle = () => {
     navigate('/')
   }
