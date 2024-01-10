@@ -21,6 +21,7 @@
 }
 
 .form-wrapper {
+    width: 350px;
     padding: 2.5rem 1.5rem;
     background-color: var(--color-white);
     border-radius: 8px;
@@ -42,7 +43,7 @@
 }
 
 .auth-form {
-    width: 350px;
+    width: 100%;
     margin-bottom: 0.5rem;
 }
 
@@ -84,6 +85,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     color: var(--color-white);
 }
 
@@ -289,6 +291,7 @@
     text-align: center;
     color: var(--color-black);
 }
+
 .modal-close-wrapper {
     padding: 0 0.5rem;
     text-align: right;
@@ -319,11 +322,46 @@
     background-color: var(--color-black);
     color: var(--color-white);
 }
+
 .modal-title {
     font-size: 16px;
     margin-bottom: 1.25rem;
 }
+
 .modal-image {
     width: 50%;
     margin-bottom: 0.8rem;
+}
+
+@media screen and (max-width: 990px) {
+    .cars-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cars-list {
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-form {
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 600px) {
+    .header-logo-title {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .cars-list {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-details-para {
+        font-size: 14px;
+        margin-bottom: 1rem;
+    }
+    .form-wrapper-text {
+        font-size: 0.75rem;
+    }
 }
